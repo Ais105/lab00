@@ -18,36 +18,45 @@
 
 ```sh
 # check development environment
+# проверка версии cmake
 $ cmake --version
 cmake version 3.5.1
-# проверка версии cmake
-$ curl --version
-curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
+...
 # проверка версии curl
+$ curl --version
+curl 7.47.0 
+...
+# проверка версии git
 $ git --version 
 git version 2.7.4
-# проверка версии git
-$ g++ --version
-g++ (Ubuntu 5.4.0-6ubuntu1~16.04.10) 5.4.0 20160609
 # проверка версии g++
-$ hub --version
-hub version 2.8.4
+$ g++ --version
+...
+5.4.0 
+...
 # проверка верси hub
+$ hub --version
+...
+hub version 2.8.4
+# проверка версии make
 $ make --version
 GNU Make 4.1
-# проверка версии make
+...
+# проверка версии sublime text
 $ subl --version
 Sublime Text Build 3176
-# проверка версии sublime text
+# проверка версии tree
 $ tree --version
 tree v1.7.0 
-# проверка версии tree
-$ wget --version
-GNU Wget 1.17.1 built on linux-gnu.
+...
 # проверка версии wget
-$ openssl version
-OpenSSL 1.0.2g 1 Mar 2016
+$ wget --version
+GNU Wget 1.17.1 
+...
 # проверка версии openssl
+$ openssl version
+OpenSSL 1.0.2
+...
 ```
 
 ## Links
